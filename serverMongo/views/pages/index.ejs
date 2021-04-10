@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body class="container">
+
+
+
+    <main>
+        <div class="jumbotron">
+            <h1>Parking Free Space Detection</h1>
+            <p>Welcome to the app</p>
+            <p>Available Parking Spaces</p>
+            <!-- test for data -->
+            <ul>
+                <% free.forEach(function(free) { %>
+                    <li>
+                        <strong><%= free.zona %></strong> :
+                        <%= free.number %>
+
+                    </li>
+                    <% }); %>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>
