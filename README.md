@@ -1,9 +1,9 @@
 ﻿# Detección de Zonas de Parqueo Disponibles
 
 **Integrantes:** 
-[Heberth Martinez](https://github.com/hfmartinez)
-[Francisco Pedroza ](https://github.com/franciscopedroza030595)
-[Johan Loaiza](https://www.google.com)
+[Heberth Martinez](https://github.com/hfmartinez),
+[Francisco Pedroza ](https://github.com/franciscopedroza030595),
+[Johan Loaiza](https://www.google.com),
 [Juan David Orejuela](https://github.com/orejuelajd)
 
 **Planteamiento del problema**
