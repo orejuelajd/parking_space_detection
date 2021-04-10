@@ -1,8 +1,6 @@
-﻿**Detección de Zonas de Parqueo Disponibles**
+﻿# Detección de Zonas de Parqueo Disponibles
 
-**Integrantes:** Heberth Martinez Francisco Pedroza Johan Loaiza
-
-Juan David Orejuela
+**Integrantes:** Heberth Martinez, Francisco Pedroza, Johan Loaiza, Juan David Orejuela
 
 **Planteamiento del problema**
 
