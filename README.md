@@ -38,13 +38,13 @@ Es una arquitectura de detección de objetos más famosa que emplea redes convol
 1. RPN: Se encarga de detectar las regiones de interés (*ROIs*) donde se encuentra el objeto y así predecir los cuadros delimitadores (*Bounding Boxes*) a estos objetos en la imagen.
 1. Capa de Predicción: Emplea una capa densa en la red neuronal, con la cual se predice la clase de los objetos acotados en las regiones de interés.
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.001.png)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.001.png)
 
 Imagen No. 1. Arquitectura de FasterRCNN
 
 **YOLO:** Arquitectura popular para el reconocimiento de objetos con gran precisión disponible para ser implementada en tiempo real. ”only looks once” en el sentido de que se requiere que cada imagen o frame solo se propague una vez a través de la red neuronal para realizar predicciones[4]. La salida de YOLO entrega el reconocimiento de los diferentes objetos(clases) demarcados dentro de un cuadro delimitador(bounding box) y la información relacionada con la posición del centroide(x, y), el tamaño(alto, ancho) y el porcentaje de precisión de la clase asignada al objeto por la red.
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.002.png)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.002.png)
 
 Imagen No. 2. Arquitectura de YOLO
 
@@ -52,7 +52,7 @@ Imagen No. 2. Arquitectura de YOLO
 
 Resnet es el nombre reducido para Red Neuronal Residual
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.003.jpeg)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.003.jpeg)
 
 Imagen No. 3. Arquitectura de ResNet 101
 
@@ -70,7 +70,7 @@ Conjunto de datos de detección, segmentación y etiqueta de objetos a gran esca
 
 Este dataset permite realizar  segmentación de objetos, reconocimiento en contexto por medio de un conjunto de datos de más de 330 mil imágenes, 1.5 millones de instancias de objeto y 80 categorías de objetos y 5 etiquetas por imagen. Para este caso solo se emplea la clase Carro para la detección de los objetos en la red YOLO.
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.004.jpeg)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.004.jpeg)
 
 Imagen 4. Imagen de ejemplo del dataset de MS-COCO
 
@@ -84,17 +84,17 @@ Imagen 4. Imagen de ejemplo del dataset de MS-COCO
 
 - Tiempo de ejecución extensos para procesamiento frame a frame.
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.005.jpeg)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.005.jpeg)
 
 Imagen 5. Resultado de Localización y Clasificación con FasterRCNN y VGG16
 
 **YOLO:**
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.006.jpeg)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.006.jpeg)
 
 Imagen 6. Resultado de Localización y Clasificación con YOLO **Modelo Faster RCNN ResNet 101:**
 
-![](Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.007.jpeg)
+![](https://raw.githubusercontent.com/orejuelajd/parking_space_detection/master/documentation/raw_files/Aspose.Words.10eed888-fc97-461d-b4bc-f1107494bcc1.007.jpeg)
 
 Imagen 7. Resultado de Localización y Clasificación con FasterRCNN y ResNet 101
 
