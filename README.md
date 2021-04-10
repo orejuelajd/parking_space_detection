@@ -101,6 +101,7 @@ Imagen 7. Resultado de Localización y Clasificación con FasterRCNN y ResNet 10
 |Faster RCNN VGG 16 (CPU)|YOLO (CPU)|Modelo Faster RCNN ResNet 101 (GPU)|
 | :- | - | :- |
 |6.78 segundos|0.62 segundos|0.84 segundos|
+
 Tabla 1. TIempos de procesamiento para un frame
 
 ***Nota**: La ejecución de los scripts se hizo en una computadora con las siguientes características: Intel Core i5-8400 CPU 2.8GHz, 16 Gb de RAM y GPU 1080 GTX de 4GB de VRAM.*
